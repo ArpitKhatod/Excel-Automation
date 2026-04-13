@@ -1,7 +1,7 @@
 🧠 Pandas Visualization — plot() Full Parameter Cheat Sheet
-Region_sum = sales_data.groupby("Region")[["Sales","Profit"]].sum().plot(kind="bar"
-                                                                         ,title="Sales by Region",
-                                                                         subplots=False,
+
+
+Region_sum = sales_data.groupby("Region")[["Sales","Profit"]].sum().plot(kind="bar",title="Sales by Region",subplots=False,
                                                                          layout =(1,2),
                                                                          sharey=False,
                                                                          legend = True,
